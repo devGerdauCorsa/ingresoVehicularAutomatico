@@ -29,6 +29,8 @@ function initSidebar() {
                         break;
                     case 'chatarras':
                         break;
+                    case 'entradas':
+                        break;
                     //Funcionalidades especiales de cada pagina
                     default:
                         break;
