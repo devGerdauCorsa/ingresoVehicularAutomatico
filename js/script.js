@@ -27,6 +27,10 @@ function initSidebar() {
                             $('.sub-container').load("content/sub-content/chatarreros.php");
                         },1000);
                         break;
+                    case 'chatarras':
+                        break;
+                    case 'entradas':
+                        break;
                     //Funcionalidades especiales de cada pagina
                     default:
                         break;
@@ -36,6 +40,7 @@ function initSidebar() {
     });
 
 }
+
 
 function buildProviders(o, option){
     $('.nav-prov').removeClass('active');
